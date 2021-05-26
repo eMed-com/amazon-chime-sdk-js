@@ -1,6 +1,9 @@
 {
-  "name": "amazon-chime-sdk-js",
-  "version": "2.10.0",
+  "name": "@eMed-com/amazon-chime-sdk-js",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "version": "2.10.1",
   "description": "Amazon Chime SDK for JavaScript",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -90,7 +93,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aws/amazon-chime-sdk-js"
+    "url": "git://github.com/eMed-com/amazon-chime-sdk-js"
   },
   "nyc": {
     "include": [
