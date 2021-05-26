@@ -1547,13 +1547,13 @@ export default class DefaultDeviceController
       // TODO: try to replace hard-code value related to videos into quality-level presets
       // The following configs relaxes CPU overuse detection threshold to offer better encoding quality
       // @ts-ignore
-      trackConstraints.googCpuOveruseDetection = true;
-      // @ts-ignore
-      trackConstraints.googCpuOveruseEncodeUsage = true;
-      // @ts-ignore
-      trackConstraints.googCpuOveruseThreshold = 85;
-      // @ts-ignore
-      trackConstraints.googCpuUnderuseThreshold = 55;
+      // trackConstraints.googCpuOveruseDetection = true;
+      // // @ts-ignore
+      // trackConstraints.googCpuOveruseEncodeUsage = true;
+      // // @ts-ignore
+      // trackConstraints.googCpuOveruseThreshold = 85;
+      // // @ts-ignore
+      // trackConstraints.googCpuUnderuseThreshold = 55;
     }
     if (kind === 'audio' && this.supportSampleRateConstraint()) {
       trackConstraints.sampleRate = { ideal: DefaultDeviceController.defaultSampleRate };
