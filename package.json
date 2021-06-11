@@ -1,5 +1,5 @@
 {
-  "name": "@eMed-com/amazon-chime-sdk-js",
+  "name": "amazon-chime-sdk-js",
   "publishConfig": {
     "registry":"https://npm.pkg.github.com"
   },
